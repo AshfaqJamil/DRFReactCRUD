@@ -7,3 +7,5 @@ router = DefaultRouter()
 router.register('',PostList,basename='user')
 
 urlpatterns = router.urls
+
+
